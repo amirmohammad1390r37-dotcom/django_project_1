@@ -32,6 +32,7 @@ class Post(models.Model):
     created_at = models.DateTimeField(auto_now_add= True, editable=False)
     updated_at = models.DateTimeField(auto_now_add= True, editable=False)
     #image =
+    #IMAGE test
 
 
 
