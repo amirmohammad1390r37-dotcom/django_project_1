@@ -31,8 +31,8 @@ class Post(models.Model):
     published =models.BooleanField()
     created_at = models.DateTimeField(auto_now_add= True, editable=False)
     updated_at = models.DateTimeField(auto_now_add= True, editable=False)
-    #image =
-    #IMAGE test
+    image = models.ImageField()
+    
 
 
 
